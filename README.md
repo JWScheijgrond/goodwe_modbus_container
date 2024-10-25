@@ -1,6 +1,6 @@
 # goodwe_modbus_container
 
-I have taken the goodwe library of MarcelBlijleven (https://github.com/marcelblijleven/goodwe) and added a docker file and script for continuosly calling the modbus interface on my Goodwe 3000D-NS inverter equipped with the wifi/lan adapter. 
+I have taken the goodwe library of MarcelBlijleven (https://github.com/marcelblijleven/goodwe) and added a docker file and script for continuously calling the modbus interface on my Goodwe 3000D-NS inverter equipped with the wifi/lan adapter. 
 
 The local_search is added to activate the modbus when the inverter is starting. This is a variation on the broadcast the solargo app does when searching inverters. 
 
