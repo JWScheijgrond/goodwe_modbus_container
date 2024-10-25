@@ -19,7 +19,7 @@ Set the environment variables for the IP address of the Inverter, the API code f
 
 You can choose to update the environment variables in the docker file or set them when running the image. 
 
-To build the Docker image, run the following command in the directory containing the Dockerfile:
+To build the Docker image, run the following command in the directory containing the Dockerfile (and the other files):
 
 ```sh
 docker build -t goodwe_modbus_logger .
